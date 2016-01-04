@@ -33,6 +33,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    /*
+    Creacion de la Funcion tap del Button
+    */
     @IBAction func ClickOrdenarHamb() {
         
         LblNombreHamburgesa.text = colHamgur.obtenHamburguesa()
